@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 
 class ScrapeProductInfo:
     def __init__(self):
-        chrome_driver_path = "chromedriver.exe"
+        chrome_driver_path = "chromedriver"
         chrome_options = Options()
         chrome_service = ChromeService(executable_path=chrome_driver_path)
         chrome_options.add_argument('--headless')
