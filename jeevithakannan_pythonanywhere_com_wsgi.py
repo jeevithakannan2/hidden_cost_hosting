@@ -1,6 +1,6 @@
 import sys
 
-path = '/home/jeevithakannan/mysite'
+path = './'
 if path not in sys.path:
     sys.path.append(path)
 
